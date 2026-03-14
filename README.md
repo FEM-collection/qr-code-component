@@ -54,7 +54,7 @@ The challenge was to build out this QR code component and get it as close as pos
 
 ### Links
 
-- Live Site URL: [https://fem-solutions.github.io/qr-code-component](https://fem-solutions.github.io/qr-code-component)
+- Live Site URL: [https://fem-collection.github.io/qr-code-component](https://fem-collection.github.io/qr-code-component)
 - Solution URL: [https://www.frontendmentor.io/solutions/card-component-built-with-css-custom-properties-krZg583OIP](https://www.frontendmentor.io/solutions/card-component-built-with-css-custom-properties-krZg583OIP)
 
 ## My process
@@ -177,7 +177,7 @@ Implemented a design system based on the Figma design and style guide, featuring
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/FEM-solutions/qr-code-component.git
+git clone https://github.com/FEM-collection/qr-code-component.git
 ```
 
 2. Navigate to project folder:
