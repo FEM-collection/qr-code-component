@@ -1,0 +1,62 @@
+/* ===================================
+   base.css - Fundamental Styles
+  ==================================== */
+
+/* -----------------------------------
+  1. RESET
+  ------------------------------------ */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--fs-base); /* base for rem units */
+}
+
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-md);
+  font-weight: var(--fw-regular);
+  line-height: 1.5;
+  color: var(--clr-text-dark);
+  background-color: var(--clr-bg-light);
+}
+
+/* -----------------------------------
+  2. BASE ELEMENTS
+  ------------------------------------ */
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  display: block;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* -----------------------------------
+  3. BASE UTILITIES
+  ------------------------------------ */
+
+/* Visually hidden but accessible to screen readers */
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+  padding: 0;
+  margin: -1px;
+}
