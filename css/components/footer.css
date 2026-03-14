@@ -1,0 +1,29 @@
+/* ===================================
+   footer.css  
+  ==================================== */
+
+.footer {
+  padding-block: var(--space-200);
+}
+
+.footer__attribution {
+  font-size: var(--fs-md);
+  text-align: center;
+  color: var(--clr-text-dark);
+}
+
+.footer__link {
+  color: var(--clr-light-slate-900);
+}
+
+/* Hover state */
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+/* Focus state */
+.footer__link:focus-visible {
+  outline: 2px solid var(--clr-light-slate-900);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
