@@ -152,7 +152,7 @@ Implemented a design system based on the Figma design and style guide, featuring
 - Main stylesheet path in `index.html`
 
 ```html
-<link rel="stylesheet" href="./main.css" />
+<link rel="stylesheet" href="./css/main.css" />
 ```
 
 `main.css` import stylesheets:
